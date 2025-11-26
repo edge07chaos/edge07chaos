@@ -55,11 +55,11 @@ int	main(void)
 ![Markdown](https://img.shields.io/badge/markdown-0D1117.svg?style=for-the-badge&logo=markdown&logoColor=white)
  <br>
 ## These are my Github´s stats
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=JsExpertCoder&show_icons=true&theme=dark&locale=en&layout=compact&langs_count=8&exclude_repo=frontbox,chocolife,championsbarbershop,xPlace&hide=html" alt="JsExpertCoder" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=edge07chaos&show_icons=true&theme=dark&locale=en&layout=compact&langs_count=8&exclude_repo=frontbox,chocolife,championsbarbershop,xPlace&hide=html" alt="edge07chaos" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=JsExpertCoder&show_icons=true&theme=dark&locale=en&text_bold=true" alt="JsExpertCoder" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=edge07chaos&show_icons=true&theme=dark&locale=en&text_bold=true" alt="edge07chaos" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=JsExpertCoder&theme=dark" alt="JsExpertCoder"/></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=edge07chaos&theme=dark" alt="edge07chaos"/></p>
 
 
 ## Contact
@@ -68,7 +68,7 @@ int	main(void)
 [![Gmail Badge](https://img.shields.io/badge/-misterjs24700@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:misterjs247000@gmail.com)](mailto:misterjs247000@gmail.com)
 
 <!--
-**JsExpertCoder/jsExpertCoder** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**edge07chaos/edge07chaos** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
