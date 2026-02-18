@@ -6,30 +6,43 @@ I also have knowledge in Backend development with **Laravel**.
 📚 I am currently taking the Common Core (42-cursus) at School 42<br>
 
 ## This is me as a code
-```c
-#include <unistd.h>
-#include <stdlib.h>
 
-void	ft_strcpy(char *dest, char *src)
+```c
+#include <stdlib.h>
+#include <unistd.h>
+
+void	ft_strcpy(char *dest, const char *src)
 {
 	while (*src)
 		*dest++ = *src++;
-	*dest = 0;
+	*dest = '\0';
+}
+
+size_t	ft_strlen(const char *str)
+{
+	size_t	i;
+
+	i = 0;
+	while (str[i])
+		i++;
+	return (i);
 }
 
 int	main(void)
 {
-	char	*str;
-	int		slogan_size;
+	char		*str;
+	const char	*slogan = "I will never give up\n";
+	const char	*error = "Memory allocation failed\n";
+	size_t		slogan_size;
 
-	slogan_size = 20;
-	str = (char *)malloc(sizeof(char) * (slogan_size + 1));
+	slogan_size = ft_strlen(slogan);
+	str = malloc(slogan_size + 1);
 	if (!str)
 	{
-		write(1, "Memory allocation failed\n", 25);
-		exit(0);
+		write(2, error, ft_strlen(error));
+		exit(1);
 	}
-	ft_strcpy(str, "I will never give up");
+	ft_strcpy(str, slogan);
 	write(1, str, slogan_size);
 	free(str);
 	return (0);
@@ -37,6 +50,7 @@ int	main(void)
 ```
 
 ## These are the languages and tools I've studied so far
+
 ![C](https://img.shields.io/badge/c-0D1117.svg?style=for-the-badge&logo=c&logoColor=3893F5)
 ![C++](https://img.shields.io/badge/c++-0D1117.svg?style=for-the-badge&logo=c%2B%2B&logoColor=9445FC)
 ![Shell](https://img.shields.io/badge/shell-0D1117.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
@@ -53,14 +67,15 @@ int	main(void)
 ![React Native](https://img.shields.io/badge/RN-0D1117.svg?style=for-the-badge&logo=react&logoColor=4C8CD5)
 ![Linux](https://img.shields.io/badge/linux-0D1117.svg?style=for-the-badge&logo=linux&logoColor=#f1c604)
 ![Markdown](https://img.shields.io/badge/markdown-0D1117.svg?style=for-the-badge&logo=markdown&logoColor=white)
- <br>
+<br>
+
 ## These are my Github´s stats
+
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=edge07chaos&show_icons=true&theme=dark&locale=en&layout=compact&langs_count=8&exclude_repo=frontbox,chocolife,championsbarbershop,xPlace&hide=html" alt="edge07chaos" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=edge07chaos&show_icons=true&theme=dark&locale=en&text_bold=true" alt="edge07chaos" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=edge07chaos&theme=dark" alt="edge07chaos"/></p>
-
 
 ## Contact
 
