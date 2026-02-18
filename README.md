@@ -8,43 +8,22 @@ I also have knowledge in Backend development with **Laravel**.
 ## This is me as a code
 
 ```c
-#include <stdlib.h>
 #include <unistd.h>
 
-void	ft_strcpy(char *dest, const char *src)
+size_t
+ft_strlen(const char *s)
 {
-	while (*src)
-		*dest++ = *src++;
-	*dest = '\0';
+    if (!s) return 0;
+    size_t i = 0;
+    for (; *s; i++, s++);
+    return i;
 }
 
-size_t	ft_strlen(const char *str)
+int
+main(void)
 {
-	size_t	i;
-
-	i = 0;
-	while (str[i])
-		i++;
-	return (i);
-}
-
-int	main(void)
-{
-	char		*str;
-	const char	*slogan = "I will never give up\n";
-	const char	*error = "Memory allocation failed\n";
-	size_t		slogan_size;
-
-	slogan_size = ft_strlen(slogan);
-	str = malloc(slogan_size + 1);
-	if (!str)
-	{
-		write(2, error, ft_strlen(error));
-		exit(1);
-	}
-	ft_strcpy(str, slogan);
-	write(1, str, slogan_size);
-	free(str);
+	char *slogan = "I will never give up\n";
+	write(1, slogan, ft_strlen(slogan));
 	return (0);
 }
 ```
