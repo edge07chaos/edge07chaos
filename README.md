@@ -1,9 +1,9 @@
 ### Hi, I'm Fábio <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" >
 
 I'm a Software Engineer. My specialty is developing **Android and iOS Mobile Apps with React Native**. <br>
-I also have knowledge in Backend development with **Laravel**.
+I also have expertise in Backend development with **Laravel** and **NestJs**.
 
-📚 I am currently taking the Common Core (42-cursus) at School 42<br>
+📚 I am currently taking the Common Core (42-cursus) at [42 School](https://www.42network.org/) <br>
 
 ## This is me as a code
 
