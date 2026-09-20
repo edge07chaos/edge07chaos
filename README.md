@@ -62,7 +62,7 @@ main(void)
 <h2 align="center">🌃 Contribution Skyline</h2>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nongoantonio/edge07chaos/main/profile-3d-contrib/profile-night-view.svg" alt="3D skyline visualization of GitHub contributions" />
+<img src="https://raw.githubusercontent.com/nongoantonio/edge07chaos/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D skyline visualization of GitHub contributions" />
 </p>
 
 ## Contact
