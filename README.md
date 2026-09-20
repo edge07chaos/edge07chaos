@@ -59,6 +59,12 @@ main(void)
 ![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=edge07chaos&show_icons=true&theme=gruvbox)
 <!--![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=edge07chaos&layout=compact&theme=gruvbox)-->
 
+<h2 align="center">🌃 Contribution Skyline</h2>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nongoantonio/edge07chaos/main/profile-3d-contrib/profile-green-animate.svg" alt="3D skyline visualization of GitHub contributions" />
+</p>
+
 ## Contact
 
 [![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/misterjs/)](https://www.linkedin.com/in/misterjs/)
